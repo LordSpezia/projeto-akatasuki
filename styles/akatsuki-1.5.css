@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Prompt:ital,wght@0,400;1,300&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secudaria: #B80000;
+
+    --font-titulos: "Prompt", sans-serif;
+    --font-txt: "Lato", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    color: white;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+h1 {
+    font-family: var(--font-titulos);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4rem;
+}
+
+.cabecalho {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px
+    
+}
+
+.cabecalho__link {
+    text-decoration: none;
+    color: var(--cor-secudaria);
+    font-family: var(--font-titulos);
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+
+.all {
+    padding: 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.txt {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+
+img {
+    border: 10px solid var(--cor-secudaria);
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 350px;
+}
