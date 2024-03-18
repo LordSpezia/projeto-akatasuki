@@ -80,6 +80,7 @@ img {
     width: 550px;
     height: 350px;
 }
+/* segunda pagagina */
 
 /* terceira pagagina */
 
@@ -117,4 +118,10 @@ img {
 
 .image-container:hover .hover-text {
     opacity: 1;
+}
+/* Quarta pagagina */
+
+.work {
+    display: flex;
+    justify-content: space-between;
 }
