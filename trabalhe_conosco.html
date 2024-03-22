@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhe conosco</title>
     <link rel="stylesheet" href="./styles/akatsuki-1.5.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <h1>Bem Vindos a Akatsuki</h1>
@@ -16,31 +19,47 @@
             <a class="cabecalho__link" href="trabalhe_conosco.html">Trabalhe conosco</a>
         </nav>
     </header>
-    <main class="all">
+    <main class="all3">
         <section class="txt">
-            <h2>Regras Gerais</h2>
-        <ul>
-            <li>Não agredir o tobi(mesmo q mereça)</li>
-            <li>Sempre em duplas</li>
-            <li>Sempre de anel</li>
-            <li>Sempre de manto</li>
-        </ul>
-        <h2>Itens Requeridos</h2>
-        <ul> 
-            <li>Manto ( fornecido pela corp.)</li>
-            <li>Anel ( fornecido pela corp.)</li>
-            <li>Algum jutso foda</li>
-            <li>Parceiro Leal</li>
-        </ul>
+            <h2>Então esta interessando em trabalhar conosco, leia as regras abaixo e envie seu formulario (ao enviar
+                você concorda com todas as regras).
+                <br>
+                (atualmente ainda não aprendi a configurar o envio do formulurio, não preencha)
+            </h2>
+            <h3>Regras Gerais</h3>
+            <ul>
+                <li>Não agredir o tobi(mesmo que ele mereça)</li>
+                <li>Sempre em duplas</li>
+                <li>Sempre de anel</li>
+                <li>Sempre de manto</li>
+            </ul>
+            <h3>Itens Requeridos</h3>
+            <ul>
+                <li>Manto ( fornecido pela corp.)</li>
+                <li>Anel ( fornecido pela corp.)</li>
+                <li>Algum jutso ou habilidade exepcional</li>
+                <li>Historia trágica</li>
+            </ul>
+            <form action="/trabalhe_conosco.html" method="GET">
+                <div class="box">
+                    <label for="name">Por favor insira seu nome:</label>
+                    <br>
+                    <textarea id="name" name="name" maxlength="100" required></textarea>
+                    <br>
+                    <label for="work">Por que quer trabalhar conosco?</label>
+                    <textarea id="work" name="work" maxlength="450" required></textarea>
+                </div>
+                <button type="enviar">Enviar</button>
+            </form>
         </section>
-
-        <img src="./assets/tobi-joinha.gif" alt="Tobi aprova">
-
-        <div class="work">
-          
+        <div class="gif">
+            <img src="./assets/tobi-joinha.gif" alt="Tobi aprova">
         </div>
     </main>
-    
-    
+    <footer class="rodape">
+        <p>Todos os direitos resernvados a Luã Spezia, texto e imagens diretos reservaods a https://naruto.fandom.com -
+            Contatos: speiza.lu55@gmail.com.</p>
+    </footer>
 </body>
+
 </html>
