@@ -82,6 +82,88 @@ img {
 }
 /* segunda pagagina */
 
+.all2 {
+    padding: 5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.line1 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
+.line2 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
+.line3 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
+.line4 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
+.line5 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
+.line6 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
+.line7 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
+.line8 {
+    display: flex;
+    width: auto;
+    gap: 40px;
+    align-items: center;
+    font-family: var(--font-txt);
+    font-size: 1.5rem;
+}
+
 /* terceira pagagina */
 
 .membros {
