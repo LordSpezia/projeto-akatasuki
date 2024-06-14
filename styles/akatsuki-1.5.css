@@ -76,7 +76,7 @@ h1 {
 
 
 img {
-    border: 10px solid var(--cor-secudaria);
+    border: 5px solid var(--cor-secudaria);
     display: flex;
     justify-content: space-between;
     width: 550px;
